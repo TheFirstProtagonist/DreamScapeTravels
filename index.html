@@ -1,66 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
+    <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./images/undraw_aircraft_re_m05i.svg" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/undraw_aircraft_re_m05i.svg" type="image/x-icon">
     <title>DreamScape Travels</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-  </head>
-  
-  <body>
-    <div id="hero">
-
-      <!-- ilustração principal -->
-      <img src="./images/undraw_traveling_yhxq.svg" alt="Ilustração de uma pessoa em uma sala com móveis customizados" /> 
-
-      <!-- texto  -->
-      <div id="header text">
-        <h1>
-          Descubra <span class="destaque">Mundos Novos</span> para Explorar!
-        </h1>
-
-        <p class="texto">
-          Nós criamos experiências de viagem <strong>incomparáveis</strong> e
-          <strong>autênticas</strong>, com muito cuidado e atenção aos detalhes,
-          investindo tempo e <span class="destaque">paixão no seu itinerário</span>.
-        <br/>
-        <br/>
-          Tenha <span class="destaque">viagens memoráveis</span> e bem planejadas, proporcionando
-          <strong>aventura</strong> e <strong>descobertas</strong> para todos os viajantes.
-        </p>
-      </div>
-    </div>
-
-
-    <!-- contatos -->
-    <footer>
-      <div id="footer">    
-        <div id="line"></div>
-        <p></p>
-          <a href="https://github.com/TheFirstProtagonist" target="_blank" class="destaque">
-            Instagram
-          </a>
-
-
-          <a href="mailto:rafaelnascimento95@hotmail.com" class="destaque">
-            Fale Conosco
-          </a>
-        </p>
-      </div>  
+</head>
+<body>
+    <!-- main content -->
+    <main id="main">
+        <!-- image -->
+        <div class="img">
+            <img src="./img/undraw_traveling_yhxq.svg" alt="uma mulher e um homem sentados no banco da moto com um mapa na mão">
+        </div>
+        <!-- section -->
+        <section class="content">
+            <h1>Descubra <span class="special-span">mundos</span> para explorar!</h1>
+            <p class="compressed-p">
+                Nós criamos experiências de viagem <strong>imcomparáveis</strong> e <strong>autênticas,</strong> com muito cuidado e atenção aos detalhes, investindo tempo e <span class="special-span">paixão no seu itinerário.</span>
+            </p>
+            <br>
+            <p class="compressed-p">
+                Tenha <span class="special-span">viagens memoráveis</span> e bem planejadas, proporcionando <strong>aventura</strong> e <strong>descobertas</strong> para todos os viajantes.
+            </p>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <a class="special-span" href="https://github.com/TheFirstProtagonist" target="_blank">Github</a>
+            <a class="special-span" href="mailto:rafaelnascimento95@hotmail.com">Fale Conosco</a>
+        </div>
     </footer>
-
-    <!-- elemento decorativo-->
-    <img 
-      id="balls-decoration"
-      src="./images/undraw_aircraft_re_m05i.svg" 
-      alt="Ícone de um avião no canto direito da tela" />
-  </body>
+    <div class="airplace-fixed">
+        <img src="./img/undraw_aircraft_re_m05i.svg" alt="Foto da frente de um avião">
+    </div>
+</body>
 </html>
