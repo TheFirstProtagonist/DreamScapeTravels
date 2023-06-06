@@ -1,7 +1,4 @@
-# DreamScape Travels
-#
-# https://github.com/TheFirstProtagonist/DreamScapeTravels
-#
+# Página de Viagens
 
 Este é um projeto de página de viagens que foi desenvolvido como parte de um teste para enriquecimento do meu perfil no GitHub. O objetivo deste projeto é demonstrar minhas habilidades de desenvolvimento web e mostrar meu interesse no campo de viagens e turismo.
 
@@ -21,7 +18,10 @@ A página de viagens consiste em um layout responsivo e atrativo que exibe desti
 2. Abra o arquivo `index.html` em um navegador web.
 3. Explore os destinos de viagem disponíveis e experimente os recursos de filtragem.
 
+## Acesso à Aplicação
+
+Você pode acessar a aplicação através deste [link](https://thefirstprotagonist.github.io/DreamScapeTravels/). 
+
 ## Licença
 
 Este projeto é licenciado sob a [Licença GPL](https://www.gnu.org/licenses/gpl-3.0.pt-br.html). Você é livre para usar, modificar e distribuir o código fonte deste projeto de acordo com os termos da licença.
-
